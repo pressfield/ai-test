@@ -1,0 +1,22 @@
+{
+  "name": "ai-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "get-model": "node model/index.js",
+    "run-ai": "node ai/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 20"
+  },
+  "author": "Richard King <richrdkng@gmail.com> (https://www.richrdkng.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@llama-node/llama-cpp": "^0.1.6",
+    "axios": "^1.5.1",
+    "llama-node": "^0.1.6",
+    "progress": "^2.0.3"
+  }
+}
