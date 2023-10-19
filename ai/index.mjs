@@ -65,9 +65,9 @@ const run = async () => {
       res += response.token
   });
 
-  // console.log('-------------------------')
-  // console.log(res)
-  // console.log('-------------------------')
+  console.log('-------------------------')
+  console.log(res)
+  console.log('-------------------------')
 }
 
 run();
