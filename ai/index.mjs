@@ -46,6 +46,7 @@ const prompt = `
   User: ${text}
 `;
 
+
 const run = async () => {
   await llama.load(config);
 
