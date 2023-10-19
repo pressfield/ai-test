@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  test:
+  ai-test:
     runs-on: ubuntu
     timeout-minutes: 10
 
@@ -16,6 +16,5 @@ jobs:
           cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci
-
-      # - run: npm run get-model
-
+      - run: npm run get-model
+      - run: npm run run-ai
